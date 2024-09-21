@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="assets/icons/es.svg" alt="" />
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="assets/icons/gb.svg" alt="" />
+      </div>
+    </div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(6, 90%, 55%)" class="colors__item colors__item--red"></div>
+
+      <div data-color="hsl(132, 53%, 48%)" class="colors__item colors__item--green"></div>
+
+      <div data-color="hsl(239, 57%, 60%)" class="colors__item colors__item--blue"></div>
+
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <!--PERFIL -->
+      <article class="card card--profile">
+        <div class="card__image-container zoom">
+          <img src="assets/images/profile.jpg" alt="foto-perfil"/>
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">JesuScripts</h2>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Desarrollador</p>
+        </div>
+
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:jesus.script.09@gmail.com">jesus.script.09@gmail.com</a>
+          </div>
+
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:+34624853609">+34-624853609</a>
+          </div>
+          <p class="card__text" data-section="profile" data-value="description"> Mi nombre es Jesus Alfredo, estoy
+            interesado en programación, llevo un año en preparación intensiva, donde he adquirido solidas habilidades en desarrollo web. <br />
+            A pesar de no tener experiencia laboral formal, he desarrollado varios proyectos personales que demuestran
+            mi capacidad para aplicar los conocimientos adquiridos. Deseo aplicar mis habilidades en un entorno
+            profesional y contribuir al crecimiento de su esquipo.
+
+
+          </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title" data-section="experience" data-value="title">Certificaciones</h2>
+
+        <div class="experience">
+          <img src="assets/images/certificado1.png" alt="logo" class="experience__image zoom">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="first-job-dates">
+              Agosto 2024 - Current
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">Ultimate JavaScript</h3>
+          </div>
+        </div>
+
+
+        <div class="experience">
+          <img src="assets/images/certificado2.png" alt="logo" class="experience__image zoom">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="second-job-dates">
+              Agosto 2024 - Current
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="second-job-title">Git y GitHub</h3>
+          </div>
+        </div>
+
+        <div class="experience">
+          <img src="assets/images/certificado3.png" alt="logo" class="experience__image zoom">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="third-job-dates">
+              Septiembre 2024 - Current
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="third-job-title">Programación y Desarrollo Front-end y Back-end</h3>
+          </div>
+        </div>
+
+
+      </article>
+
+      <article class="card card--hobbies">
+        <h2 class="card__title" data-section="hobbies" data-value="act-title">Tiempo libre</h2>
+        <div class="card__image-container zoom">
+          <img src="assets/images/hobbie.jpg" alt="paseo en moto">
+        </div>
+        <h3 class="hobbie__title" data-section="hobbies" data-value="activity">Paseo</h3>
+        <p class="card__text" data-section="hobbies" data-value="act-description">Uno de mis mayores placeres es subirme a mi moto y perderme por carreteras desconocidas.
+          La sensación de libertad y aventura que me brinda cada viaje es inigualable.</p>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Desarrollador</h2>
+        <small>Formación constante</small>
+        <div class="skills"></div>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">10</span>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">HTML</p>
+          <div class="skills__bar skills__bar--80"></div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">CSS</p>
+          <div class="skills__bar skills__bar--60"></div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">JavaScript</p>
+          <div class="skills__bar skills__bar--70"></div>
+        </div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">React</p>
+          <div class="skills__bar skills__bar--50"></div>
+        </div>
+      
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">Diseño Gráfico</h2>
+        <small>Formación constante</small>
+        <div class="skills"></div>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">10</span>
+        </div>
+
+
+        <div class="skills__item">
+          <p class="skills__tech">Photoshop</p>
+          <div class="skills__bar skills__bar--70"></div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">Illustrator</p>
+          <div class="skills__bar skills__bar--40"></div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">Figma</p>
+          <div class="skills__bar skills__bar--60"></div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">Canva</p>
+          <div class="skills__bar skills__bar--70"></div>
+        </div>
+
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">Complementos</h2>
+        <small>Formación constante</small>
+        <div class="skills"></div>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">10</span>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">Git</p>
+          <div class="skills__bar skills__bar--50"></div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">GitHub</p>
+          <div class="skills__bar skills__bar--60"></div>
+        </div>
+
+        <div class="skills__item">
+          <p class="skills__tech">IA generativa</p>
+          <div class="skills__bar skills__bar--70"></div>
+        </div>
+
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/portada-prueba.png" alt="portada-portafolio" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#GitHub</span>
+          </div>
+          <h2 class="card__title">Portafolio Digital</h2>
+          <p class="card__text">Este portafolio digital exhibe una selección de proyectos desarrollados con HTML, CSS y JavaScript, con un enfoque especial en React. A través de estos trabajos, demuestro mi habilidad para crear interfaces de usuario intuitivas y funcionales. Mi formación en desarrollo web, respaldada por certificaciones en Ultimate JavaScript, Git, GitHub y tecnologías front-end y back-end, me permite ofrecer soluciones web a medida y de alta calidad.</p>
+
+          <div class="buttons">
+            <a href="#" class="button button--primary">Result</a>
+
+            <a href="#" class="button button--ghost">Demo</a>
+
+            <a href="#" class="button button--ghost">Code</a>
+
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__video-container">
+          <video width="320px" autoplay controls loop>
+            <source src="assets/video/api-clima.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#API Key</span>
+          </div>
+          <h2 class="card__title">Descubre el clima de tu ciudad  con un clic</h2>
+          <p class="card__text">¿Cansado de buscar pronósticos en diferentes sitios? <br>
+
+            Mi página web te ofrece toda la información meteorológica que necesitas en un solo lugar. Gracias a la integración de API especializadas, podrás conocer la temperatura, humedad y mucho más, todo en tiempo real. Además, mi diseño te permite acceder a la información desde cualquier dispositivo.
+            </p>
+
+          
+
+            <div class="buttons">
+              <a href="#" class="button button--primary">Result</a>
+  
+              <a href="#" class="button button--ghost">Demo</a>
+  
+              <a href="#" class="button button--ghost">Code</a>
+
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/tienda-virtual.png" alt="tienda-virtual" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          <h2 class="card__title">Tu estilo, tu moto, tu esencia</h2>
+          <p class="card__text">La pasión por las dos ruedas, ahora en tu armario. Somos más que una tienda online, somos una comunidad de amantes de las motos. En MotoGP encontrarás la ropa que necesitas para expresar tu estilo y vivir al máximo tu pasión. Nuestra plataforma, desarrollada con HTML, CSS y JavaScript, te ofrece una experiencia de compra personalizada y fácil de usar.</p>
+
+          <div class="buttons">
+            <a href="#" class="button button--primary">Result</a>
+
+            <a href="#" class="button button--ghost">Demo</a>
+
+            <a href="#" class="button button--ghost">Code</a>
+
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

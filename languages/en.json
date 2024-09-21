@@ -1,0 +1,26 @@
+{
+    "profile": {
+      "rol" :"Developer",
+      "description":"My name is Jesus Alfredo, I'm interested in programming, I've been in intensive preparation for a year, where I've acquired solid skills in web development. <br/> Despite not having formal work experience, I've developed several personal projects that demonstrate my ability to apply the knowledge acquired. I want to apply my skills in a professional environment and contribute to the growth of your team."
+    },
+    "experience": {
+      "title": "Certifications",
+
+      "first-job-title": "Ultimate JavaScript",
+      "first-job-dates": "August 2024 - Current",
+     
+      "second-job-title": "Git and GitHub",
+      "second-job-dates": "August 2024 - Current",
+
+      "third-job-title": "Front-end and back-end programming and development",
+      "third-job-dates": "September 2024 - Current"
+      
+    },
+
+    "hobbies": {
+    "act-title":"Free time",
+    "activity":"Walk",
+    "act-description":"One of my greatest pleasures is to get on my motorcycle and get lost on unknown roads. The feeling of freedom and adventure that each trip gives me is unmatched."
+  }
+
+}
